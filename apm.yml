@@ -1,0 +1,15 @@
+name: asd-ste100-apm
+version: 0.1.0
+description: APM integration for the ASD-STE100 agent skill
+author: DJ-Meyers
+license: MIT
+targets:
+  - copilot
+dependencies:
+  apm:
+    - danyuchn/asd-ste100-skill#master
+  mcp: []
+includes: auto
+devDependencies:
+  apm: []
+scripts: {}

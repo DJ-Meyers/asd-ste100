@@ -1,0 +1,6 @@
+apm_modules/
+.agents/
+.github/instructions/
+AGENTS.md
+.validation/
+.DS_Store
