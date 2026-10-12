@@ -10,7 +10,8 @@ DJ-Meyers maintains this wrapper, not the upstream skill.
 
 ## Install
 
-Install APM first. Package validation used APM 0.33.0.
+Install APM first with the [APM installation instructions](https://microsoft.github.io/apm/getting-started/installation/).
+Package validation used APM 0.33.0.
 Run these commands from the project where you use Copilot.
 
 Install the pinned wrapper release:
