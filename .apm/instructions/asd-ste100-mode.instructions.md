@@ -14,12 +14,12 @@ Honor an explicit mode request when the skill applies.
 The mode label requirement below overrides the upstream instruction to keep the mode internal.
 All other upstream behavior remains unchanged.
 
-At the beginning of the first response, add exactly one of these lines:
+At the beginning of the first response, add exactly one of these Markdown lines:
 
-- `[STE mode: Strict]`
-- `[STE mode: STE-flavored]`
+- `> **STE mode: Strict**`
+- `> **STE mode: STE-flavored**`
 
-If the selected mode changes during the session, add the new mode line at the beginning of that response.
-Do not repeat the mode line when the mode does not change.
+If the selected mode changes during the session, add the new mode blockquote at the beginning of that response.
+Do not repeat the mode blockquote when the mode does not change.
 Put the label in assistant response text.
 Do not claim that the label creates a native chat activity row.

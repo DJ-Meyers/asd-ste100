@@ -44,17 +44,13 @@ The upstream skill defines the rules for both modes.
 An explicit mode request takes precedence when the skill applies.
 The wrapper changes only mode reporting, which upstream normally keeps internal.
 
-The first response begins with exactly one label:
+The first response begins with exactly one bold blockquote label:
 
-```text
-[STE mode: Strict]
-```
+> **STE mode: Strict**
 
 or:
 
-```text
-[STE mode: STE-flavored]
-```
+> **STE mode: STE-flavored**
 
 Later responses include a label only when the mode changes.
 The label describes the selected mode, not certified compliance with ASD-STE100.
